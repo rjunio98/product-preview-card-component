@@ -1,0 +1,74 @@
+body {
+    background-color: var(--background-color);
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+} 
+
+.card {
+    background: white;
+    display: flex;
+    height: 40vh;
+    max-width: 460px;
+}
+
+.card .card-about {
+    padding: 20px;
+}
+
+.card .card-about .title {
+    color: var(--neutral-text);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.card .card-about .subtitle {
+    margin-top: 10px;
+    font-family: 'Fraunces',sans-serif;
+    font-weight: 700;
+}
+
+.card .card-about .text {
+    font-size: 14px;
+    margin-top: 14px;
+    color: var(--neutral-text);
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+
+.card .card-about .price-promotion {
+    color: rgb(3, 105, 3);
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.card .card-about .price-old {
+    text-decoration: line-through;
+    color: var(--neutral-text);
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.card .card-about .btn {
+    background-color: var(--background-color-button);
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-about .btn:hover {
+    background-color: rgb(8, 46, 8);
+}
+
+
